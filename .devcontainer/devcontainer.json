@@ -1,0 +1,6 @@
+{
+    "name": "Existing Docker Compose",
+    "dockerComposeFile": "../docker-compose.yaml",
+    "service": "app",
+    "workspaceFolder": "/app"
+}
