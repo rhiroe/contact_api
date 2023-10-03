@@ -12,7 +12,7 @@ RUN git clone https://github.com/neologd/mecab-ipadic-neologd.git && \
     mecab-ipadic-neologd/bin/install-mecab-ipadic-neologd -n -a -y
 
 FROM ubuntu:mantic AS data
-RUN wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.jv.300.bin.gz
+RUN wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.jp.300.bin.gz
 
 FROM ruby:3.2 AS bundle
 COPY Gemfile Gemfile
